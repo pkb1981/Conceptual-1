@@ -1,18 +1,23 @@
-/* basic body element style */
+a/* basic body element style */
 body{
     margin:0;
     padding:0;
 }
 /* project title styling */
 .title{
-    
-    text-align: center;
+ text-align: center;
 }
 /* 1st part styling */
 .first-part{
     display:flex;
-    width: 80%;
-    margin:0 auto;
+    justify-content:center;
+    align-items: center;
+    /* width: 80%;
+    margin:0 auto; */
+}
+/* left side styling */
+.left-side{
+    width:50%;
 }
 /* right side that is map styling */
 .right-side img{
@@ -20,10 +25,12 @@ body{
 }
 /* button details styling */
 .details-btn{
-    padding:7px 30px;
-    background-color:rgba(84, 138, 3, 0.548);
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
     border-radius:7px;
     border:none;
+    margin-top: 15px;
     background-image: linear-gradient(180deg, yellow, orange, red);
 }
 /* mouse hover styling */
@@ -33,9 +40,9 @@ body{
     mouse:pointer;
 }
 /* 2nd part styling */
-.second-heading{
+.second-section{
     text-align: center;
-}
+  }
 /* all division styling */
 .all-divisions{
     display: flex;
@@ -46,8 +53,8 @@ body{
 .division{
     width:300px;
     margin-right: 5%;
-    box-shadow: 4px 4px 10px;
-    border-radius: 0px;
+    box-shadow: 4px 4px 10px grey;
+    border-radius: 5px;
 }
 /* all image styling in 2nd part */
 .division img{
@@ -57,6 +64,7 @@ body{
 .copyright{
     text-align: center;
     margin-top: 5%;
+    margin-bottom: 2%;
     font-size: 10px;
 }
 
