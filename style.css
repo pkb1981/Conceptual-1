@@ -1,0 +1,62 @@
+/* basic body element style */
+body{
+    margin:0;
+    padding:0;
+}
+/* project title styling */
+.title{
+    
+    text-align: center;
+}
+/* 1st part styling */
+.first-part{
+    display:flex;
+    width: 80%;
+    margin:0 auto;
+}
+/* right side that is map styling */
+.right-side img{
+    width: 300px;
+}
+/* button details styling */
+.details-btn{
+    padding:7px 30px;
+    background-color:rgba(84, 138, 3, 0.548);
+    border-radius:7px;
+    border:none;
+    background-image: linear-gradient(180deg, yellow, orange, red);
+}
+/* mouse hover styling */
+.details-btn:hover{
+    background-color:black;
+    color:whitesmoke;
+    mouse:pointer;
+}
+/* 2nd part styling */
+.second-heading{
+    text-align: center;
+}
+/* all division styling */
+.all-divisions{
+    display: flex;
+    margin:0% 10%;
+
+}
+/* divison wise styling */
+.division{
+    width:300px;
+    margin-right: 5%;
+    box-shadow: 4px 4px 10px;
+    border-radius: 0px;
+}
+/* all image styling in 2nd part */
+.division img{
+    width:100%;
+}
+/* bottom part styling */
+.copyright{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 10px;
+}
+
